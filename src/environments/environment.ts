@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyDLPb-gYdBtWEcXRFVxBl1MbVb0wtqjBTQ',
+    authDomain: 'teatotallerapp.firebaseapp.com',
+    databaseURL: 'https://teatotallerapp.firebaseio.com',
+    projectId: 'teatotallerapp',
+    storageBucket: 'teatotallerapp.appspot.com',
+    messagingSenderId: '389474198475',
+    appId: '1:389474198475:web:a72318960fe8820b2a0c4e',
+    measurementId: 'G-Y9PE73R4VR'
+  }
 };
 
 /*
